@@ -1,8 +1,11 @@
 export class Cliente {
-    cliente: ICliente;
     
-    constructor(cliente: ICliente) {
-        this.cliente = cliente;
+    constructor(private id: number, private limite: number, private saldoInicial: number) {
+    }
+
+    static create(data: ) {
+        const {id, limit, saldoInicial } = data;
+        return new Cliente()
     }
 }
 

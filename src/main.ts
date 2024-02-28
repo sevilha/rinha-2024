@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import clienteRouter from './src/routes/clients';
+import clienteRouter from './presentation/routers/clients';
 
 const PORT = process.env.PORT || 4000
 const HOSTNAME = process.env.HOSTNAME || 'http://localhost'
