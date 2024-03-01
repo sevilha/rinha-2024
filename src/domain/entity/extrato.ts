@@ -3,6 +3,7 @@ import { ITransacao } from "./transacao";
 
 export class Extrato {
     extrato: IExtrato;
+    
     constructor(extrato: IExtrato) {
         this.extrato = extrato;
     }
